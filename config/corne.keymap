@@ -33,10 +33,10 @@
 
         lower_layer {
             bindings = <
-&trans  &trans  &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp UP            &trans      &trans  &trans
-&trans  &kp N1  &kp N2  &kp N3      &kp N4             &kp N5             &trans                &kp LEFT              &kp DOWN          &kp RIGHT   &trans  &trans
-&trans  &kp N6  &kp N7  &kp N8      &kp N9             &kp N0             &trans                &kp C_PREVIOUS        &kp C_PLAY_PAUSE  &kp C_NEXT  &trans  &trans
-                        &trans      &trans             &trans             &trans                &trans                &trans
+&trans  &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp UP            &trans      &trans  &trans
+&trans  &kp N1  &kp N2      &kp N3             &kp N4           &kp N5    &trans                &kp LEFT              &kp DOWN          &kp RIGHT   &trans  &trans
+&trans  &kp N6  &kp N7      &kp N8             &kp N9           &kp N0    &trans                &kp C_PREVIOUS        &kp C_PLAY_PAUSE  &kp C_NEXT  &trans  &trans
+                            &trans             &trans           &trans    &trans                &trans                &trans
             >;
 
             label = "c==3";
