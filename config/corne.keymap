@@ -54,10 +54,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &kp LS(LA(TAB))   &kp LA(LS(SEMICOLON))  &kp LS(LA(F))     &trans    &trans  &trans        &kp LA(K)      &trans     &trans  &trans
-&trans  &trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)       &kp LA(NUMBER_3)  &trans    &trans  &kp LA(H)     &kp LA(J)      &kp LA(L)  &trans  &trans
-&trans  &trans  &kp LA(NUMBER_4)  &kp LA(N5)             &kp LA(NUMBER_6)  &trans    &trans  &kp LG(PLUS)  &kp LG(MINUS)  &trans     &trans  &trans
-                                  &trans                 &trans            &trans    &trans  &trans        &trans
+&trans  &trans            &kp LS(LA(TAB))   &kp LA(LS(SEMICOLON))  &kp LS(LA(F))     &trans        &trans  &trans        &kp LA(K)      &trans     &trans  &trans
+&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)       &kp LA(NUMBER_4)  &kp LA(N5)    &trans  &kp LA(H)     &kp LA(J)      &kp LA(L)  &trans  &trans
+&trans  &kp LA(NUMBER_6)  &kp LA(N7)        &kp LA(N8)             &kp LA(N9)        &kp LA(A)     &trans  &kp LG(PLUS)  &kp LG(MINUS)  &trans     &trans  &trans
+                                            &trans                 &trans            &trans        &trans  &trans        &trans
             >;
 
             label = "c===3";
