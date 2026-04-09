@@ -56,7 +56,7 @@
         layer_3 {
             bindings = <
 &trans      &trans  &trans  &trans      &trans      &trans    &trans        &trans  &trans            &trans         &trans  &trans
-&bt BT_CLR  &trans  &trans  &bt BT_PRV  &bt BT_NXT  &trans    &kp RG(LEFT)  &trans  &kp RG(UP_ARROW)  &kp RG(RIGHT)  &trans  &trans
+&bt BT_CLR  &trans  &trans  &bt BT_PRV  &bt BT_NXT  &trans    &kp RC(LEFT)  &trans  &kp RC(UP_ARROW)  &kp RC(RIGHT)  &trans  &trans
 &trans      &trans  &trans  &trans      &trans      &trans    &trans        &trans  &trans            &trans         &trans  &trans
                             &trans      &trans      &trans    &trans        &trans  &trans
             >;
